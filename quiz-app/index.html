@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <section class = "landing-page">
+        <div class="wrapper">
+            <div class="flex-content">
+                <h1 class="vacation-heading">Welcome To Master Quiz</h1>
+                <a href="#quiz-packages" class="btn">Start Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header Section... -->
+     <header class="quiz-header" id="quiz-header">
+        <h1 class="heading">Master Quiz</h1>
+     </header>
+
+
+    <nav class="main-nav">
+        <a href="#">Home</a>
+        <a href="#quiz-packages">Quiz</a>
+        <a href="#Performer">Top Performers</a>
+        <a href="#notes">Notes</a>
+    </nav>
+
+
+    <section class="quiz-packages-section" id="quiz-packages">
+        <h1 class="quiz-heading">Coding Quiz</h1>
+        <p class="quiz-text">Enhance your programming knowledge with our topic-wise interactive coding quizzes.<br> Wheather you're preparing for interviews or just practicing skills, these quizzes will help <br>you learn, improve, and track your progress.</p>
+        <div class="package-wrapper">
+            <div class="package-card">
+                <img src="image/java.jpg" alt="">
+                <p class="card-heading">Java</p>
+                <p class="card-text">Brush up your Java fundamentals including OOP, Collections, Multithreading, and more.</p>
+                <p class="card-heading">100₹</p>
+                <button class="btn" onclick="startQuiz('java')">Take Quiz</button>
+            </div>
+            <div class="package-card">
+                <img src="image/python.jpg" alt="">
+                <p class="card-heading">Python</p>
+                <p class="card-text">Learn Python concepts such as Data Types, Loops, Finctions, Opp, and Modules.</p>
+                <p class="card-heading">100₹</p>
+                <button class="btn">Take Quiz</button>
+            </div>
+            <div class="package-card">
+                <img src="image/js.png" alt="">
+                <p class="card-heading">JavaScript</p>
+                <p class="card-text">Test your knowledge of JS Basics, DOM, Events, ES6, Promises, and Async programming.</p>
+                <p class="card-heading">100₹</p>
+                <button class="btn">Take Quiz</button>
+            </div>
+            <div class="package-card">
+                <img src="image/spring.png" alt="">
+                <p class="card-heading">Spring Boot</p>
+                <p class="card-text">Check your understanding of REST APIs, JPA Dependency Injection, and Microservices.</p>
+                <p class="card-heading">100₹</p>
+                <button class="btn">Take Quiz</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Performer-quiz-section" id="Performer">
+        <h1 class="quiz-heading">Top Performer</h1>
+        <p class="quiz-text">Our top performers are the brightest minds who have consistently excelled in our quizzes, showcasing their expertise and dedication. They represent the pinnacle of knowledge across various subjects like Java, Python, and more. With impressive scores, they set the benchmark for others to follow and inspire the entire community to strive for excellence</p>
+        <div class="image-card">
+            <img src="image/m1.jpg" alt="">
+            <img src="image/m2.jpg" alt="">
+            <img src="image/m3.jpg" alt="">
+            <img src="image/m4.jpg" alt="">
+            <img src="image/m5.jpg" alt="">
+            <img src="image/m6.jpg" alt="">
+        </div>  
+    </section>
+
+
+
+    <section class="notes-section" id="notes">
+        <h1 class="quiz-heading">Subject Notes</h1>
+        <p class="quiz-text">We provide complete and well-structured notes for every subject included in this platform. Wheather you're learning Java, Compile Design, Spring Boot, or ReactJS, our notes are created to help you understand concepts clearly and quickly. Each topic is explained in an easy and student-friendly format, with real-world examlpes to support practical learning. These notes are perfect for exam preparation, college assignments, and interview readiness. Keep learning at your own pace and strengthen you knowledge with our comprehensive study materials. </p>
+        <div class="notes-div">
+            <div class="notes-wrapper">
+                <img src="image/java.png" alt="">
+            </div>
+            <div class="notes-wrapper">
+                <img src="image/compiler.png" alt="">
+            </div>
+            <div class="notes-wrapper">
+                <img src="image/spring.png" alt="">
+            </div>
+            <div class="notes-wrapper">
+                <img src="image/react.png" alt="">
+            </div>
+            <div class="notes-wrapper">
+                <img src="image/dev.jpg" alt="">
+            </div>
+            <div class="notes-wrapper">
+                <img src="image/python.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer-section">
+        <small>All Right Reserver</small>
+        <small>Developed  & Maintained By
+            <a href="https://linkedin.com/in/udit-punia-bb84ba2a0" target="_blank">Udit Punia</a>
+        </small>
+    </footer>
+
+
+    <script src="index.js"></script>
+     
+</body>
+</html>
